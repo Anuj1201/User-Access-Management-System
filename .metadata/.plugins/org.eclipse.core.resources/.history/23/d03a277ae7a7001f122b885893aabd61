@@ -1,0 +1,69 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<display-name>SignUpServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.SignUpServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Requests</servlet-name>
+  	<display-name>Requests</display-name>
+  	<description></description>
+  	<servlet-class>controller.Requests</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestServlet</servlet-name>
+  	<display-name>RequestServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.RequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SoftwareServlet</servlet-name>
+  	<display-name>SoftwareServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.SoftwareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<url-pattern>/SignUpServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Requests</servlet-name>
+  	<url-pattern>/Requests</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestServlet</servlet-name>
+  	<url-pattern>/RequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SoftwareServlet</servlet-name>
+  	<url-pattern>/SoftwareServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
