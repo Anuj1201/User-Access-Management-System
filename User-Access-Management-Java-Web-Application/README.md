@@ -1,5 +1,3 @@
-Check this out (How it works) : https://www.youtube.com/watch?v=s6hMk4NrHAk
-
 User Access Management System
 -----------------------------
 Project Overview
@@ -73,20 +71,6 @@ Prerequisites
 ->Apache Maven
 ->Oracle Database
 ->Apache Tomcat (or any compatible Java Servlet container)
-
-Installation
--------------
-1. Clone the repository:
-
-git clone https://github.com/BharatBhagyajyoti/User-Access-Management-System.git
-
-2.Navigate to the project directory and build the project:
-
-cd User-Access-Management-System
-mvn clean install
-
-3.Configure the database settings in the JDBC connection file.
-4.Run the application on your servlet container (e.g., Apache Tomcat).
 
 Usage
 ------
