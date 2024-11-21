@@ -1,5 +1,10 @@
 User Access Management System
 -----------------------------
+
+Project Video Link
+------------------
+https://drive.google.com/file/d/1Qn0hNcITEbExSgbisDbYERCdpiyI2M8y/view?usp=sharing
+
 Project Overview
 ----------------
 The User Access Management System is a web application designed to manage user access to software applications within an organization. It allows employees to sign up, request software access, and enables managers and admins to approve or reject these requests. Built with Java Servlets, JSP, JDBC, and Oracle SQL, this application follows an MVC architecture and is managed by Maven.
